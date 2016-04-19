@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>пример</title>
+	<link rel="stylesheet" type="text/css" href="styletest.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="jquery-ui/external/jquery/jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="managmentSlider.js"></script>
+	<script type="text/javascript" src=".js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery-ui/jquery-ui.css">
+
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="img/logotip.png"/>
+		</div>
+		<div class="right_head">
+
+			<div class="phone_head">
+				<a href="#">
+					<img src="img/phone.png"/>
+				</a>
+				<span class="sans">+7 (4162) 12-34-56</span>
+			</div>
+			<div class="letter">
+				<a href="#">
+					<img src="img/convert.png"/>
+				</a>
+				<span class="sans">Напишите нам</span>
+			</div>
+		</div>
+		<div class="buttons_head">
+			<ul class="ul1">
+				<li><a align="center" href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!---Слайдер -->
+	<div class="slider">
+		<div class="b"></div>
+		<div class="man">
+			<a href="#">
+				<div class="btn__slider"> 
+				</div>
+			</a>
+			<div class="carusel">
+				<div class="cnt">
+					<ul class="hr">
+						<li><a href="#tab1" class="active"><img src="img/active.png"/></a></li>
+						<li style="padding-left:5px;padding-right:5px;"><a href="#tab2">
+						<img src="img/no-active.png"/></a></li>
+						<li><a href="#tab3"><img src="img/no-active.png"/></a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="banner">
+			<a href="#" style="display:block; height:inherit;"></a>
+		</div>
+
+	</div>	
+
+	<!--Контент -->
+	<div class="content">
+
+		<div class="left_bar">
+			<div class="content_center">
+				<div class="summ sans">Какая сумма вам необходима?
+					<!--Ползунки-->
+					<div class="scroll">
+						<div class="scroll_active" id="summ">	
+						</div>
+						<div class="min_summ">2000р</div>
+						<div class="max_summ">30000р</div>
+						<div class="img_result-summ" id="posx-summ"><p align="center" id="res-summ">10&nbsp000р.</p></div>
+					</div>
+				</div>
+				<div class="loan sans">На какой срок?
+					<div class="scroll">
+						<div class="scroll_active" id="days">	
+						</div>
+						<div class="min_summ">5 дней</div>
+						<div class="max_summ">15 дней</div>
+						<div class="img_result-summ" id="posx-days"><p align="center" id="res-days">12&nbsp дней.</p></div>
+					</div>
+				</div>
+
+				<div class="form">
+					<table class="sans table-pos">
+						<tr>
+							<td>Фамилия</td>
+							<td><input type="text"/></td>
+						</tr>
+						<tr>
+							<td>Имя</td>
+							<td><input type="text"/></td>
+						</tr>
+						<tr>
+							<td>Дата рождения</td>
+							<td>	
+								<input type="text"/>
+								<a href="#"> <img src="img/calendar.png" style="float:right"/></a></td>
+							</tr>
+							<tr>
+								<td>Семейное<br> положение</td>
+								<td>
+
+									<select class="selector">
+										<option>
+											Женат 
+										</option>
+										<option>
+											Нет
+										</option>
+									</select>
+
+								</td>
+							</tr>
+						</table>
+
+					</div>
+				</div>		
+
+			</div>
+
+
+			<!--Правый бар-->
+			<div class="right_bar">
+				<div class="wrapp">
+					
+					<div class="rate">
+						<span  class="sans">Ставка от 1% до 2% в день<br>
+							в зависимости от Вашей<br>
+							кредитной истории</span>
+						</div>				
+						<div class="return_summ_title sans">
+							<span>
+								Сумма к возврату*
+							</span>
+						</div>
+
+						<div class="money_return sans">11 200 
+							<span class="ru">руб.</span></div>
+							<div class="draw_now">
+								<a href="#"></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div style="height:1px;border-top:1px solid #ccc;"></div>
+				<!--Подвал-->
+				<div class="about">
+					<div class="about_contacts sans">
+						<ul>
+							<li><a href="#">О компании <img src="img/razd.png"/></a>	
+							</li>	
+							<li><a href="#" > Займы <img src="img/razd.png"/></a>		
+							</li>		
+							<li><a href="#"> Контакты <img src="img/razd.png"/></a>		
+							</li>	
+							<li><a href="#"> Личный кабинет </a></li>
+						</ul>
+						<div class="social_proof">
+							<a href="#" ><img src="img/facebook.png"/></a>
+							<a href="#" ><img src="img/twitter.png"/></a>
+							<a href="#" ><img src="img/google-plus-.png"/></a>
+							<a href="#" ><img src="img/rss.png"/></a>			
+						</div>
+					</div>
+
+				</div>
+				<div class="footer">
+					<div class="foot-container">
+						<div class="foot_left-logo">			
+							<img src="img/foot-logo.png"/>
+						</div>
+						<div class="center_foot">
+
+							<div class="foot_center-phone">
+								<div class="foot__center">
+									<a href="#"><img src="img/ptr.png" style="float:left" /></a>
+									<div class="adress sans">адрес г.Владивосток, ул.Приморская 12, оф. 255</div>
+								</div>
+								<div  class="phone">
+									<a href="#"><img src="img/phone.png" style="float:left; padding-top: 9px;padding-left: 50px;"/>
+									</a>
+									<div class="number sans">+7(4162) 12-24-56</div>
+								</div>
+
+
+							</div>
+						</div>
+						<div class="foot_right-tech sans">
+							<span>&laquoРазработано G-Tech&raquo</span>
+
+
+
+						</div>
+						
+					</div>
+				</div>
+
+				<script type="text/javascript">
+					$(document).ready(function(){
+						$("#summ").slider({
+							animate:false,
+							range:"min",
+							value:10000,
+							min: 2000, 
+							max: 30000, 
+							step: 1,					
+							slide: function(event, ui){
+								$("#res-summ").html(ui.value+"р.");
+								sliderWidth = $(".ui-widget-header").width();
+								$("#posx-summ").css("left",(sliderWidth)+"px");					
+							},
+							change: function(event, ui){
+								sliderWidth = $(".ui-widget-header").width();
+								$("#posx-summ").css("left",(sliderWidth)+"px");	
+							},
+							stop:function(event, ui){
+								var sliderWidth = $(".ui-widget-header").width();
+								$("#posx-summ").css("left",(sliderWidth)+"px");	
+							}
+
+						});
+						var sliderWidth = $(".ui-widget-header").width();
+						$("#posx-summ").css("left",(sliderWidth)+"px");	
+
+					});
+
+
+				</script>	
+				<script type="text/javascript">
+					$(document).ready(function(){
+						$(".ui-slider-handler").button({
+							icons: { primary: "ui-icon-gear", secondary: "ui-icon-triangle-1-s" }
+						});
+
+						$("#days").slider({
+							animate:false,
+							range:"min",
+							value:12,
+							min: 5, 
+							max: 15, 
+							step: 1,
+							slide: function(event, ui){
+								var val = ui.value;
+								$("#res-days").html(ui.value+"дней.");
+								sliderWidth = $(".ui-widget-header").width();
+								$("#posx-days").css("left",(sliderWidth)+"px");						
+
+							},
+							change: function(event, ui){
+								sliderWidth = $('.ui-widget-header').width();
+								$("#posx-days").css("left",(sliderWidth)+"px");	
+							}
+						});
+						var sliderWidth = $(".ui-widget-header").width();
+						$("#posx-days").css("left",(sliderWidth)+"px");	
+					});		
+				</script>
+			</body>
+			</html>
